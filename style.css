@@ -1,0 +1,150 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: f,sans-serif,serif;
+}
+/*header area start now*/
+
+
+.logo-size{
+  width:50%;
+  float:left;
+}
+.header-bg{
+  background:#130f40;
+  height:70px;
+}
+.content-area{
+  width:80%;
+  margin:auto;
+}
+.logo-size a img{
+  height:70px;
+
+}
+.contact-size{
+  width:50%;
+  float:right;
+}
+.contact-area{
+  margin-right: 20px;
+}
+.contact-area nav ul li{
+  float:left;
+  list-style: none;
+  padding:5px 20px;
+}
+.contact-area nav ul li a{
+  text-decoration: none;
+  color:#fff;
+  font-size: 20px;
+}
+.contact-area nav ul li:hover{
+  background: blue;
+  color: #fff;
+  font-size: 25px;
+}
+
+/*section area start now*/
+.log-in{
+  background: url("imeges/bg3.jpg");
+  height:650px;
+  background-size: cover;
+  position: fixed;
+  width:100%;
+}
+.log-bg{
+  width: 80%;
+  margin: auto;
+}
+.website-text{
+  width:500px;
+  margin: auto;
+}
+.website-text h1{
+  padding:5px;
+  margin: 0;
+  text-align: center;
+  color: #1e272e;
+  margin-top: 35px;
+  position: relative;
+}
+.website-text h4{
+  color:#1e272e;
+  padding: 0;
+  margin: 15px;
+  margin-bottom: -15px;
+  margin-top: 20px;
+}
+.website-text h3{
+  margin-right: 5px;
+  color:#1e272e;
+  font-size: 17px;
+  padding: 0px 60px;
+  margin-top: 20px;
+}
+.box{
+  background: #dfe4ea;
+  height: 350px;
+  margin: 0 330px;
+  width: 30%;
+  opacity: 0.9;
+  position: fixed;
+}
+.box h2{
+  color:#2C3A47;
+  text-align: center;
+  margin-top: 35px;
+  position: relative;
+  font-size: 18px;
+}
+.box input{
+  float:left;
+  margin: 8px 60px;
+  padding: 6px;
+  width:65%;
+  font-size: 15px;
+}
+.box a{
+  text-decoration: none;
+  color:#3498db;
+  font-size: 12px;
+  float:right;
+  margin-right: 65px;
+  margin-top: 5px;
+}
+.box a:hover{
+  color:red;
+  text-decoration: underline;
+}
+.login-submit input{
+  font-size: 15px;
+  display: block;
+  font-weight: bold;
+  border-radius: 2px;
+  border: 1px solid #4267b2;
+  cursor:pointer;
+  background: #3498db;
+  color:#fff;
+  margin-top: 35px;
+}
+.login-submit input:hover{
+  background: #0984e3;
+  border: 1px solid #4267b2;
+  border-radius: 2px;
+}
+.box h5{
+  color: #636e72;
+  float: left;
+  margin-left: 105px;
+  padding: 2px;
+  margin-top: 57px;
+}
+.sign-up a{
+  margin-top: 59px;
+  margin-right: 135px;
+}
+.sign-up a:hover{
+  color: #3c40c6;
+  text-decoration:underline;
+}
